@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>	
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/bootstrap-5/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/wow/animation.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="vendor/owlcarousel/owl.carousel.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/owlcarousel/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/fancybox/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/semantic/semantic.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+</head>
+<body>
+    <header class="page-header">
+        <div class="container-header clearfix">
+            <div class="logo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
+            <div class="toggle-menu">
+                <img src="./images/ico-menu.png" alt="">
+            </div>
+            <div class="main-menu">
+                <ul class="ul-main">
+                    <li><a href="#" class="md-section-1">Giới thiệu</a></li>
+                    <li><a href="#" class="md-section-2">Triết lí</a></li>
+                    <li><a href="#" class="md-section-3">Báo chí về chúng tôi</a></li>
+                    <li><a href="#" class="md-section-4">Cơ hội nhượng quyền</a></li>
+                    <li><a href="#" class="register md-section-5">Đăng ký</a></li>
+                </ul>
+            </div>
+            <a href="#" class="register-mb">Đăng ký</a>
+        </div>
+        <div class="banner">
+            <img src="./images/banner.jpg" alt="">
+        </div>
+    </header><!-- .page-header -->
+    <div class="page-main">
+        <div class="section-1" id="section-1">
+            <div class="container">
+                <form action="">
+                    <h4>Đăng ký nhận<br> thông tin nhượng quyền</h4>
+                    <div class="md-col clearfix">
+                        <div class="md-row">
+                            <label for="input-1">Họ và tên</label>
+                            <input type="text" placeholder="Nguyễn Văn A" id="input-1">
+                            <!-- <p class="error">Vui lòng nhập họ và tên</p> -->
+                        </div>
+                        <div class="md-row">
+                            <label for="">Email</label>
+                            <input type="email" placeholder="nguyenvana@gmail.com">
+                            <!-- <p class="error">Vui lòng nhập email</p> -->
+                        </div>
+                    </div>
+                    <div class="md-col clearfix">
+                        <div class="md-row">
+                            <label for="">Số điện thoại</label>
+                            <input type="text" placeholder="0359 392 329">
+                            <!-- <p class="error">Vui lòng nhập số điện thoại</p> -->
+                        </div>
+                        <div class="md-row">
+                            <label for="">Tính/Thành phố</label>
+                            <select class="ui dropdown">
+                                <option value="">Hồ Chí Minh</option>
+                                <option value="1">Hồ Chí Minh</option>
+                                <option value="0">Hà Nội</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="md-col-bt">
+                        <span><img src="./images/ico-arrow.png" alt=""></span>
+                        <input type="button" value="Gửi thông tin">
+                    </div>
+                    <div id="modal-sucess" class="md-modal-fancybox" >
+                        <h3 class="smd-title">Đăng ký thông tin thành công!</h3>
+                        <p>Cám ơn bạn đã đăng ký, chúng tôi sẽ liên hệ lại với bạn</p>
+                    </div>                 
+                </form>
+            </div>
+            <div class="md-psp">
+                <div class="container">
+                    <div class="top-content">
+                        <h4>Về TOMATO</h4>
+                        <p>Được thành lập từ năm 2013, TOMATO EDUCATION là một tổ chức giáo dục luôn đi tiên phong trong việc giới thiệu các triết lý và chương trình giáo dục tiến bộ nhân văn cho trẻ em Việt Nam. TOMATO là đơn vị có bề dày kinh nghiệm 1 thập kỷ trong việc đồng hành cùng gia đình để mang đến cho trẻ em và thanh thiếu niên những chương trình giáo dục mới mẻ. Các thương hiệu giáo dục thuộc hệ thống TOMATO Education gồm có:</p>
+                    </div>
+                    <div class="main-content">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <img src="./images/psp-1.png" alt="">
+                                    <p><strong>Trường Ngoại Khóa TOMATO Children’s Home:</strong> Cung cấp các chương trình giáo dục ngoài giờ chính khóa (after-school) về giáo dục cảm xúc và kỹ năng xã hội,  bồi dưỡng trí tuệ, năng lực tư duy sáng tạo, kỹ năng ngôn ngữ cũng như các kỹ năng thế kỷ 21 để chuẩn bị các em cho tương lai nhiều thử thách.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <img src="./images/psp-2.png" alt="">
+                                    <p><strong>Mầm non Đa Trí Thông Minh TOMATO Multiple Intelligences Preschool:</strong> Mô hình “trường mầm non tinh gọn” (micro-school) dễ vận hành, dễ quản lý với triết lý giáo dục tôn trọng thiên hướng và năng khiếu riêng biệt của mỗi trẻ. </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <img src="./images/psp-3.png" alt="">
+                                    <p><strong>Học viên Thanh thiếu niên và Bạn trẻ (Youth Empowerment School):</strong> Chuyên về các chương trình khám phá bản thân, định hướng nghề nghiệp và khám phá thế giới dành cho teen và bạn trẻ.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md-sps">
+                <div class="container">
+                    <div class="top-content">
+                        <h4>Triết lý TOMATO</h4>
+                        <p>Mỗi đứa trẻ đều có một tiềm năng, nhưng “nếu chúng ta đánh giá một con cá bằng khả năng leo cây, nó sẽ dành cả cuộc đời để tin rằng mình là đứa ngu đần” (Albert Einstein). Vì thế, trường học không nên là nơi áp đặt những khuôn mẫu cứng nhắc lên trẻ mà cần là một môi trường đa dạng hài hòa nơi trẻ được khám phá chính mình, nơi những tố chất riêng biệt của trẻ được tôn trọng và được trao đầy đủ cơ hội để nảy nở và phát triển.</p>
+                    </div>
+                    <div class="main-content">
+                        <div class="md-col clearfix">
+                            <img src="./images/sps-1.png" alt="">
+                            <p><strong>Cách dạy trẻ tốt nhất là học cùng trẻ.</strong> Thực tế, người lớn chúng ta chỉ có thể dạy cho trẻ những điều đã biết, những gì thuộc về quá khứ và hiện tại. Nhưng thế giới còn vô vàn những điều ta chưa biết và tương lai sẽ được tạo nên bởi những điều chưa biết đó. Do đó, trẻ không phải là những chiếc bình rỗng để chúng ta lấp đầy kiến thức hạn hẹp của mình vào đó, mà cần được nhìn nhận như một con người với những suy nghĩ độc đáo, với năng lực sáng tạo và trí tưởng tượng vô tận. Tôn trọng trẻ và trân trọng những suy nghĩ “ngoài khuôn mẫu” của trẻ thơ chính là cách để ta học cùng trẻ và cùng con mở ra cánh cửa đến những điều chưa biết.</p>
+                        </div>
+                        <div class="md-col clearfix">
+                            <img src="./images/sps-2.png" alt="">
+                            <p><strong>Trẻ thơ cần được trao niềm tin vào bản thân mình,</strong> rằng cho dù các con chưa phải là những con người hoàn hảo nhất, nhưng các con đã, đang và sẽ tốt hơn mỗi ngày. Vì điều quan trọng không phải là tốt nhất, mà là tốt hơn mỗi ngày. </p>
+                        </div>
+                        <div class="md-col clearfix">
+                            <img src="./images/sps-3.png" alt="">
+                            <p><strong>“Cần cả làng để nuôi dạy một đứa trẻ”/ “It takes a village to raise a child”</strong> (Ngạn ngữ châu Phi). Việc nuôi dạy một đứa trẻ thành người không chỉ là nghĩa vụ của riêng những người sinh ra trẻ hay của trường học mà cần sự chung tay của mọi mắt xích quan trọng xung quanh trẻ, của cả cộng đồng. Vì thế, chúng tôi coi trọng việc gắn kết chặt chẽ giữa gia đình - nhà trường - xã hội trong mọi hoạt động của mình, Chúng tôi cũng xem việc tham gia giải quyết các vấn đề chung của cộng đồng là một trách nhiệm đương nhiên của mình với vai trò người làm giáo dục.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <h4>Hình ảnh hoạt động</h4>
+            <div class="slide-images clearfix">
+                <div class="md-col md-col-1">
+                    <div><a data-fancybox="gallery" href="./images/slide-1.jpg"><img src="./images/slide-1.jpg"></a></div>
+                </div>
+                <div class="md-col">
+                    <div><a data-fancybox="gallery" href="./images/slide-2.jpg"><img src="./images/slide-2.jpg"></a></div>
+                    <div><a data-fancybox="gallery" href="./images/slide-2.jpg"><img src="./images/slide-2.jpg"></a></div>
+                </div>
+                <div class="md-col">
+                    <div><a data-fancybox="gallery" href="./images/slide-3.jpg"><img src="./images/slide-3.jpg"></a></div>
+                    <div><a data-fancybox="gallery" href="./images/slide-3.jpg"><img src="./images/slide-3.jpg"></a></div>
+                </div>
+                <div class="md-col md-col-2 md-desktop">
+                    <div><a data-fancybox="gallery" href="./images/slide-2.jpg"><img src="./images/slide-2.jpg"></a></div>
+                    <div><a data-fancybox="gallery" href="./images/slide-2.jpg"><img src="./images/slide-2.jpg"></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="section-3">
+            <div class="container">
+                <div class="md-cnq">
+                    <div class="top-content">
+                        <h4>Cơ hội Nhượng quyền</h4>
+                        <p>Nhượng quyền các mô hình của TOMATO Education mang đến cho những ai có ý định đầu tư hoặc tham gia vào giáo dục nhiều lợi thế để bắt đầu.</p>
+                    </div>
+                    <div class="main-content">
+                        <p><strong>1. Thành công đã được chứng minh:</strong> TOMATO Education có bề dày thành công nổi bật, thể hiện rõ qua lịch sử phát triển, sự hài lòng của học sinh và cộng đồng phụ huynh luôn ủng hộ. Tham gia mạng lưới nhượng quyền của chúng tôi có nghĩa là tận dụng một mô hình đã được chứng minh về sự xuất sắc trong giáo dục.</p>
+                        <p><strong>2. Thương hiệu đã được khẳng định:</strong> TOMATO là một thương hiệu được công nhận và tôn trọng. Uy tín tiếng về chất lượng và sự đổi mới của TOMATO sẽ mở ra cánh cửa và xây dựng niềm tin trong cộng đồng của bạn.</p>
+                        <p><strong>3. Giáo dục toàn diện:</strong> Triết lý giáo dục của TOMATO hướng đến việc phát triển học sinh trở thành những cá nhân phát triển hài hòa, từ trí tuệ, kỹ năng đến nhân cách. Với tư cách là đối tác nhượng quyền, bạn sẽ góp phần tạo ra những ảnh hưởng tích cực và định hình thế hệ tương lai ngay chính tại địa phương của mình.</p>
+                        <p><strong>4. Chương trình giảng dạy phù hợp:</strong> Các chương trình giảng dạy của TOMATO được thiết kế tỉ mỉ, tích hợp các triết lý giáo dục mới nhất và các phương pháp thực hành tốt nhất trên thế giới. Bạn sẽ có quyền truy cập vào các tài liệu giáo dục và nguồn kiến thức chuyên môn toàn diện TOMATO cung cấp cho đối tác.</p>
+                        <p><strong>5. Hỗ trợ toàn diện:</strong> TOMATO Education luôn sát cánh bên các bên nhận quyền của mình trên mọi bước đường. Từ thiết lập và đào tạo ban đầu đến hỗ trợ liên tục và hỗ trợ truyền thông, tuyển sinh, chúng tôi cam kết mang lại thành công cho bạn.</p>
+                        <p><strong>6. Chương trình đa dạng:</strong> TOMATO Education cung cấp nhiều chương trình đa dạng, từ nhà trẻ, mẫu giáo đến tiểu học, thanh thiếu niên. Sự đa dạng này cho phép bạn phục vụ nhiều đối tượng nhân khẩu học, đảm bảo lượng học sinh  ổn định.</p>
+                        <p><strong>7. Quan hệ đối tác toàn cầu:</strong> TOMATO Education hợp tác với các tổ chức giáo dục toàn cầu có uy tín, đảm bảo rằng chương trình giảng dạy và phương pháp của chúng tôi đạt đẳng cấp thế giới. Là đối tác nhượng quyền, bạn sẽ được hưởng lợi từ những mối quan hệ hợp tác giá trị này.</p>
+                    </div>
+                    <p class="in-short">Tóm lại, nhượng quyền với TOMATO Education không chỉ là một khoản đầu tư; đó là cơ hội để trở thành chất xúc tác cho sự thay đổi trong lĩnh vực giáo dục. Hãy tham gia cùng chúng tôi trong việc định hình lại bối cảnh giáo dục của Việt Nam, bắt đầu bằng việc thiết lập một mô hình giáo dục bổ ích, có tác động và thành công do chính bạn dẫn dắt.</p>
+                </div>
+                <div class="md-tcol clearfix">
+                    <div class="left-content">
+                        <h6>Nhượng quyền Ngoại khóa</h6>
+                        <div class="content">
+                            <p><strong>Giới thiệu về TOMATO Children’s Home -Trường Ngoại khóa chuyên sâu đầu tiên tại Việt Nam (Dành cho trẻ từ 2 - 11 tuổi)</strong></p>
+                            <p><strong>Trường Ngoại khóa TOMATO (TOMATO Children’s Home)</strong> như một ngôi nhà ấm áp với không gian xinh xắn, thân thiện. Các khóa học và hoạt động của Trường nhằm bổ khuyết cho trẻ những gì quan trọng nhưng chưa được trang bị đầy đủ ở môi trường học tập chính khóa cũng như ở gia đình. Các chương trình cho trẻ hướng đến các mục tiêu:</p>
+                            <span>. Giúp trẻ hình thành và rèn luyện các kỹ năng sống thiết yếu</span>
+                            <span>. Giúp trẻ phát triển trí tuệ, khả năng tư duy</span>
+                            <span>. Nuôi dưỡng tâm hồn, tình cảm của trẻ, dạy trẻ biết yêu thương để được yêu thương.</span>
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Một số chương trình Ngoại khóa nổi bật dành cho bé từ 2 đến 11 tuổi
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Lợi ích khi nhượng quyền Ngoại khóa TOMATO
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <h6>Nhượng quyền Mầm non</h6>
+                        <div class="content">
+                            <p><strong>Giới thiệu về Mầm non Đa Trí Thông Minh TOMATO</strong></p>
+                            <p>Mầm non song ngữ TOMATO là ngôi trường đầu tiên tại Việt Nam triển khai chương trình giảng dạy dựa trên nền tảng học thuyết Trí Thông Minh Đa Dạng (Multiple Intelligences) của giáo sư Howard Gardner (Đại học Harvard). </p>
+                            <p>Chương trình Mầm non của TOMATO mang đến cho trẻ một hành trình phát triển trọn vẹn các năng lực đa dạng nhất của bản thân, cũng như đáp ứng những nhu cầu đặc biệt của trẻ ở từng giai đoạn. Trong đó, hai khía cạnh ngôn ngữ và cảm xúc của trẻ đặc biệt được coi trọng vì trẻ phát triển vững vàng ở hai khía cạnh này sẽ có sự phát triển vững chắc và hạnh phúc trong tương lai.</p>
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    Một số chương trình Ngoại khóa nổi bật dành cho bé từ 2 đến 11 tuổi
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Lợi ích khi nhượng quyền Ngoại khóa TOMATO
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-4">
+            <div class="container">
+                <div class="md-banner">
+                    <h4>Báo chí về TOMATO</h4>
+                    <img src="./images/banner-sc4.jpg" alt="">
+                </div>
+                <div class="row main-content">
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="./images/sc4-img-1.png" alt="">
+                            <h6>Trường mẫu giáo của con là một trái cà chua</h6>
+                            <p>Tôi đã có được trải nghiệm cảm xúc tuyệt vời này khi tới thăm trường Mầm non theo phương pháp Đa trí thông minh (TOMATO Multiple Intelligences School), ở phường Tân Phú, Quận 7, TP. Hồ Chí Minh...</p>
+                            <a href="#">Xem chi tiết <span><img src="./images/ico-arrow-2.png" alt=""></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="./images/sc4-img-2.png" alt="">
+                            <h6>Xu hướng mới: học kỹ năng để vào lớp 1</h6>
+                            <p>Sáng thứ bảy một ngày đầu tháng 4, Trường ngoại khóa Tomato đông kín người. Các giáo viên ở đây cho biết đa số các bé theo học vào những ngày cuối tuần là học lớp “Thông minh cảm xúc”, “Bé vào lớp 1 tự tin, vững vàng”...</p>
+                            <a href="#">Xem chi tiết <span><img src="./images/ico-arrow-2.png" alt=""></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="./images/sc4-img-3.png" alt="">
+                            <h6>Trường mẫu giáo của con là một trái cà chua</h6>
+                            <p>Tôi đã có được trải nghiệm cảm xúc tuyệt vời này khi tới thăm trường Mầm non theo phương pháp Đa trí thông minh (TOMATO Multiple Intelligences School), ở phường Tân Phú, Quận 7, TP. Hồ Chí Minh...</p>
+                            <a href="#">Xem chi tiết <span><img src="./images/ico-arrow-2.png" alt=""></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="./images/sc4-img-4.png" alt="">
+                            <h6>Trường mẫu giáo của con là một trái cà chua</h6>
+                            <p>Tôi đã có được trải nghiệm cảm xúc tuyệt vời này khi tới thăm trường Mầm non theo phương pháp Đa trí thông minh (TOMATO Multiple Intelligences School), ở phường Tân Phú, Quận 7, TP. Hồ Chí Minh...</p>
+                            <a href="#">Xem chi tiết <span><img src="./images/ico-arrow-2.png" alt=""></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="./images/sc4-img-1.png" alt="">
+                            <h6>Trường mẫu giáo của con là một trái cà chua</h6>
+                            <p>Tôi đã có được trải nghiệm cảm xúc tuyệt vời này khi tới thăm trường Mầm non theo phương pháp Đa trí thông minh (TOMATO Multiple Intelligences School), ở phường Tân Phú, Quận 7, TP. Hồ Chí Minh...</p>
+                            <a href="#">Xem chi tiết <span><img src="./images/ico-arrow-2.png" alt=""></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="./images/sc4-img-5.png" alt="">
+                            <h6>Trường mẫu giáo của con là một trái cà chua</h6>
+                            <p>Tôi đã có được trải nghiệm cảm xúc tuyệt vời này khi tới thăm trường Mầm non theo phương pháp Đa trí thông minh (TOMATO Multiple Intelligences School), ở phường Tân Phú, Quận 7, TP. Hồ Chí Minh...</p>
+                            <a href="#">Xem chi tiết <span><img src="./images/ico-arrow-2.png" alt=""></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-5">
+            <div class="container">
+                <div class="main-content">
+                    <h4>Câu hỏi thường gặp</h4>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Nhượng quyền TOMATO Education cụ thể là gì?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Điểm khác biệt chính giữa các thương hiệu TOMATO Children’s Home, TOMATO Multiple Intelligences Preschool và Youth Empowerment School là gì?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse " aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Tôi có cần kinh nghiệm trước về giáo dục để nhượng quyền với TOMATO không?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            Tôi có thể nhượng quyền cả mô hình ngoại khóa và  mầm non ở một địa điểm không?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Tôi sẽ nhận được những hỗ trợ nào với tư cách là Đối tác nhượng quyền TOMATO?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Chi phí để mở nhượng quyền thương mại TOMATO là bao nhiêu?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                            Những khu vực/ địa bàn nào có thể nhượng quyền? Tôi có thể độc quyền mô hình TOMATO ở một địa bàn nào đó không?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingEight">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                            Mở một cơ sở của TOMATO mất bao lâu?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingNine">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                            TOMATO có giúp hỗ trợ tài chính, kết nối nguồn lực cho đối tác nhượng quyền không.
+                          </button>
+                        </h2>
+                        <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTen">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                            Bước tiếp theo nếu tôi muốn nhượng quyền với TOMATO là gì?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-6 section-1">
+            <div class="container">
+                <form action="">
+                    <h4>Đăng ký nhận <br>thông tin nhượng quyền</h4>
+                    <div class="md-form">
+                        <div class="md-col clearfix">
+                            <div class="md-row">
+                                <label for="input-1">Họ và tên</label>
+                                <input type="text" placeholder="Nguyễn Văn A" id="input-1">
+                                <!-- <p class="error">Vui lòng nhập họ và tên</p> -->
+                            </div>
+                            <div class="md-row">
+                                <label for="">Email</label>
+                                <input type="email" placeholder="nguyenvana@gmail.com">
+                                <!-- <p class="error">Vui lòng nhập email</p> -->
+                            </div>
+                        </div>
+                        <div class="md-col clearfix">
+                            <div class="md-row">
+                                <label for="">Số điện thoại</label>
+                                <input type="text" placeholder="0359 392 329">
+                                <!-- <p class="error">Vui lòng nhập số điện thoại</p> -->
+                            </div>
+                            <div class="md-row">
+                                <label for="">Tỉnh/Thành phố</label>
+                                <select class="ui dropdown">
+                                    <option value="">Hồ Chí Minh</option>
+                                    <option value="1">Hồ Chí Minh</option>
+                                    <option value="0">Hà Nội</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md-col clearfix">
+                        <div class="md-row">
+                            <label for="">Chọn mô hình giáo dục TOMATO mà bạn muốn nhượng quyền</label>
+                            <select class="ui dropdown">
+                                <option value="">Ngoại khóa TOMATO Children’s Home</option>
+                                <option value="1">Ngoại khóa TOMATO Children’s Home</option>
+                                <option value="0">2</option>
+                            </select>
+                        </div>
+                        <div class="md-row">
+                            <label for="">Địa điểm nhượng quyền dự kiến </label>
+                            <select class="ui dropdown">
+                                <option value="">Hồ Chí Minh</option>
+                                <option value="1">Hồ Chí Minh</option>
+                                <option value="0">Hà Nội</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="md-col md-col-1">
+                        <label for="">Bạn đã từng sở hữu hoặc điều hành một mô hình nhượng quyền trước đây chưa? </label>
+                        <select class="ui dropdown">
+                            <option value="">Chưa</option>
+                            <option value="1">Chưa</option>
+                            <option value="0">2</option>
+                        </select>
+                    </div>
+                    <div class="md-col clearfix">
+                        <div class="md-row">
+                            <label for="">Năng lực đầu tư dự kiến (Vui lòng ghi rõ số tiền)</label>
+                            <input type="text" placeholder="300 triệu">
+                        </div>
+                        <div class="md-row">
+                            <label for="">Nguồn vốn</label>
+                            <select class="ui dropdown">
+                                <option value="">Tiền tiết kiệm cá nhân</option>
+                                <option value="1">Tiền tiết kiệm cá nhân</option>
+                                <option value="0">2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="md-col">
+                        <label for="input-1">Bối cảnh và Kinh nghiệm</label>
+                        <textarea name="" id="" cols="30" rows="3" placeholder="Cùng đóng bảo hiểm thất nghiệp trên 12 năm, nhưng có người được bảo lưu số tháng đóng thừa, có người không do hướng dẫn khác nhau của cơ quan chuyên môn."></textarea>
+                    </div>
+                    <div class="md-col">
+                        <label for="input-1">Bạn còn muốn chúng tôi biết thêm điều gì hay có câu hỏi cụ thể nào liên quan đến nhượng quyền giáo dục với TOMATO Education không?</label>
+                        <textarea name="" id="" cols="30" rows="3" placeholder="Cùng đóng bảo hiểm thất nghiệp trên 12 năm, nhưng có người được bảo lưu số tháng đóng thừa, có người không do hướng dẫn khác nhau của cơ quan chuyên môn."></textarea>
+                    </div>
+                    <div class="md-col-bt">
+                        <span><img src="./images/ico-arrow.png" alt=""></span>
+                        <input type="button" value="Gửi thông tin">
+                    </div>
+                    <div id="modal-sucess" class="md-modal-fancybox" >
+                        <h3 class="smd-title">Đăng ký thông tin thành công!</h3>
+                        <p>Cám ơn bạn đã đăng ký, chúng tôi sẽ liên hệ lại với bạn</p>
+                    </div>                 
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="main-content-footer">
+                <div class="logo-footer">
+                    <a href="#"><img src="./images/logo.png" alt=""></a>
+                </div>
+                <div class="row content-footer">
+                    <div class="col-md-4">
+                        <span>Trụ sở chính</span>
+                        <p><strong>RED TOMATO EDUCATION CORPORATION</strong> <br>327/5-7 Nguyễn Trọng Tuyến, Phường 10,  Quận Phú Nhuận, TP Hồ Chí Minh</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span>Giờ hoạt động</span>
+                        <p><strong>Thứ Hai - Thứ Bảy: từ 08h00 đến 17h30 <br> Chủ Nhật: từ 08h00 đến 12h00</strong></p>
+                    </div>
+                    <div class="col-md-4">
+                        <span>Liên hệ</span>
+                        <p>Phone:<strong> 0906 616 212</strong></p>
+                        <ul>
+                            <li><a href="#"><img src="./images/ico-mail.png" alt=""></a></li>
+                            <li><a href="#"><img src="./images/ico-zalo.png" alt=""></a></li>
+                            <li><a href="#"><img src="./images/ico-fb.png" alt=""></a></li>
+                            <li><a href="#"><img src="./images/ico-ytb.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="vendor/jquery/jquery-3.4.1.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/bootstrap-5/bootstrap.min.js"></script>
+<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+<script src="vendor/wow/wow.min.js" type="text/javascript"></script>
+<script src="vendor/fancybox/jquery.fancybox.min.js" type="text/javascript" ></script>
+<script src="vendor/semantic/semantic.js" type="text/javascript" ></script>
+<script src="vendor/semantic/semantic.min.js" type="text/javascript" ></script>
+<script src="scripts/main.js"></script>
+</html>

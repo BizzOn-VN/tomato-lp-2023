@@ -190,15 +190,18 @@ input[type=submit] {
     width: 100%;
     font-family: 'AvertaStdCY-Regular';
 }
+.section-1  .md-col .md-textarea{
+    padding: 37px 20px 7px;
+}
 .section-1  .md-col input::placeholder{
-    font-weight: 700;
-    color: #000;
+    font-style: italic;
     font-family: 'AvertaStdCY-Regular';
+    font-size: calc(7px + 0.5vw);
 }
 .section-1  .md-col textarea::placeholder{
-    font-weight: 700;
-    color: #000;
+    font-style: italic;
     font-family: 'AvertaStdCY-Regular';
+    font-size: calc(7px + 0.5vw);
 }
 .section-1 .ui.dropdown{
     background: #EEFDED;
@@ -286,6 +289,12 @@ input[type=submit] {
     margin-bottom: 0px;
     padding-top: 5px;
     margin-left: 5px;
+}
+.section-1 .md-col-2 label{
+    line-height: 1;
+}
+.section-1 .ui.dropdown>.text{
+    font-size: calc(7px + 0.5vw);
 }
 .md-modal-fancybox{
     display: none;
@@ -633,6 +642,12 @@ input[type=submit] {
     top: 10px;
     width: 80%;
 }
+input:focus::placeholder{
+    color: transparent !important;
+}
+textarea:focus::placeholder{
+    color: transparent !important;
+}
 .md-desktop{
     display: block;
 }
@@ -754,6 +769,9 @@ input[type=submit] {
     }
     .section-1  .md-col input::placeholder{
         font-size: calc(13px + 0.5vw);
+    }
+    .section-1 .ui.dropdown>.text{
+        font-size: calc(12px + 0.5vw);
     }
     .section-1 .md-col-bt{
         width: 100%;

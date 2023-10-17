@@ -22,13 +22,15 @@ $( window ).on( "load", function() {
    };
   window.addEventListener("resize", onresize);
 
-$('.section-4 .main-content .content').height(h4height); 
-  var h4height = 0;
-      $('.section-4 .main-content .content').each(function() {
-          if(h4height < $(this).height()){
-            h4height = $(this).height();
-          };
-      });
+  $( window ).on( "load", function() {
+             var h4height = 0;
+             $('.section-4 .main-content .content').each(function() {
+                 if(h4height < $(this).height()){
+                   h4height = $(this).height();
+                 };
+             });
+             $('.section-4 .main-content .content').height(h4height);
+  });
 $('.section-4 .main-content .content').height(h4height); 
   var onresize = function() {
      $('.section-4 .main-content .content').css("height","auto");

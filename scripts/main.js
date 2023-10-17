@@ -1,3 +1,6 @@
+$('.ui.dropdown')
+  .dropdown()
+;
   
 $( window ).on( "load", function() {
     var h3height = 0;
@@ -45,9 +48,6 @@ $('.section-4 .main-content .content').height(h4height);
   window.addEventListener("resize", onresize);
 
 
-$('.ui.dropdown')
-  .dropdown()
-;
 
 $(".page-header .toggle-menu").click(function(){
     $(".page-header .main-menu").toggleClass("active");

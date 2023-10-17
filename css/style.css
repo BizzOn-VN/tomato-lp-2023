@@ -170,7 +170,7 @@ input[type=submit] {
     left: 20px;
     font-weight: 400;
     color: #666;
-    font-size: calc(5px + 0.4vw);
+    font-size: calc(5px + 0.5vw);
     top: 7px;
     z-index: 1;
 }
@@ -619,6 +619,9 @@ input[type=submit] {
 .section-6 .md-form{
     border-bottom: 2px dotted #90CB91;
     margin-bottom: 20px;
+}
+.section-6 form p{
+    font-family: 'AvertaStdCY-Regular';
 }
 .toggle-menu{
     display: none;

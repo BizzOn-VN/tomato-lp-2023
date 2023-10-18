@@ -456,7 +456,7 @@ input[type=submit] {
     
    
     font-size: 30px;
-    margin-top: -30px;
+    margin-top: -25px;
 }
 .accordion-button:not(.collapsed)::after{
     background-image: none;

@@ -194,12 +194,12 @@ input[type=submit] {
     padding: 37px 20px 7px;
 }
 .section-1  .md-col input::placeholder{
-    font-style: italic;
+    
     font-family: 'AvertaStdCY-Regular';
     font-size: calc(7px + 0.5vw);
 }
 .section-1  .md-col textarea::placeholder{
-    font-style: italic;
+    
     font-family: 'AvertaStdCY-Regular';
     font-size: calc(7px + 0.5vw);
 }
@@ -210,7 +210,7 @@ input[type=submit] {
     border-radius: 50px;
     width: 100%;
     height: 53px;
-   
+   border-color: #90CB91;
 }
 .section-1 .ui.dropdown>.text{
     font-weight: 700;
@@ -224,13 +224,16 @@ input[type=submit] {
     right: 0px !important;
 }
 .section-1 .ui.selection.dropdown:hover{
-    border: 2px solid #90CB91;
+    
     box-shadow: none;
-    border-radius: 50px !important;
     border-color: #90CB91;
+    border-radius: 30px !important;
+/*    border-radius: 50px !important;
+    border-color: #90CB91;*/
 }
 .section-1 .ui.selection.dropdown:focus{
     border-color: #90CB91;
+    border-radius: 30px !important;
 }
 .section-1 .ui.upward.selection.dropdown.visible{
     border: 2px solid #90CB91;
@@ -448,11 +451,20 @@ input[type=submit] {
     margin-left: 1%;
 }
 .accordion-button::after{
-    background-image: url(../images/ico-faq-1.png);
+    background-image: none;
+    content: "+";
+    
+   
+    font-size: 30px;
+    margin-top: -30px;
 }
 .accordion-button:not(.collapsed)::after{
-    background-image: url(../images/ico-faq-2.png);
+    background-image: none;
+    content: "-";
     transform: rotate(0deg);
+    
+    height: 1rem;
+    
 }
 .accordion-button:focus{
     border: none;
@@ -463,9 +475,8 @@ input[type=submit] {
     margin-bottom: 2px;
 }
 .section-3 .accordion-item .accordion-header{
-    border-radius: 12px 12px 0px 0px;
     background: #EFF9EF;
-    border: 2px solid #90CB91;
+
 
 
 }
@@ -478,13 +489,17 @@ input[type=submit] {
     color: #000;
     font-weight: 700;
     font-family: 'AvertaStdCY-Regular';
+    border-radius: 12px !important;
+    border: 2px solid #90CB91;
 }
 .section-3 .accordion-body{
      font-family: 'AvertaStdCY-Regular';
     border: 2px solid #94CE91;
-    border-radius: 0px 0px 12px 12px;
+    /*border-radius: 0px 0px 12px 12px;*/
     border-top: 0px;
     background: #EFF9EF;
+    /*border-radius: 12px;*/
+    border: 2px solid #90CB91;  
 }
 .section-3 .accordion-body p{
     margin-bottom: 12px;
@@ -573,10 +588,10 @@ input[type=submit] {
     padding: 10px 20px;
     transition-duration: 0.5s;
 }
-.section-4 .main-content .content a:hover{
+/*.section-4 .main-content .content a:hover{
     color: #FFF;
     background: #FF5F2D;
-}
+}*/
 .section-4 .main-content .content a span img{
     width: 5%;
     margin-left: 10px;
@@ -748,7 +763,7 @@ textarea:focus::placeholder{
         width: 100%;
     }
     .section-1 .md-col label{
-        font-size: calc(7px + 0.5vw);
+        font-size: calc(8px + 0.5vw);
     }
     .section-1 .md-col .md-row{
         width: 100%;

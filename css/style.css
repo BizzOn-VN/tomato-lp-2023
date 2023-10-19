@@ -132,11 +132,11 @@ input[type=submit] {
     padding: 10px 20px;
     border: 1px solid #089901;
 }
-.main-menu ul li .register:hover{
+/*.main-menu ul li .register:hover{
     background: #FFF;
     color: #089901;
     border: 1px solid #089901;
-}
+}*/
 .register-mb{
     display: none;
 }
@@ -280,11 +280,11 @@ input[type=submit] {
     width: 100%;
     transition-duration: 0.5s;
 }
-.section-1 .md-col-bt input:hover{
+/*.section-1 .md-col-bt input:hover{
     background: #FFF;
     border: 1px solid #FF5F2D;
     color: #FF5F2D;
-}
+}*/
 .section-1 p.error{
     color: #F93636;
     font-style: italic;

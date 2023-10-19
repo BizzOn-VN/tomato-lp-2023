@@ -460,8 +460,8 @@ input[type=submit] {
     content: "+";
     
    
-    font-size: 30px;
-    margin-top: -25px;
+    font-size: 25px;
+    margin-top: -20px;
 }
 .accordion-button:not(.collapsed)::after{
     background-image: none;
@@ -496,6 +496,7 @@ input[type=submit] {
     font-family: 'AvertaStdCY-Regular';
     border-radius: 12px !important;
     border: 2px solid #90CB91;
+    font-size: calc(10px + 0.5vw);
 }
 .section-3 .accordion-body{
      font-family: 'AvertaStdCY-Regular';
@@ -842,6 +843,12 @@ textarea:focus::placeholder{
         float: none;
         width: 100%;
         margin: 0;
+    }
+    .section-3 .md-tcol h6{
+        font-size: calc(15px + 0.5vw);
+    }
+    .section-3 .accordion-item .accordion-button{
+        font-size: calc(15px + 0.5vw);
     }
     .section-4 .main-content .content{
         height: auto !important; 

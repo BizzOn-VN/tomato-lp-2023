@@ -263,10 +263,10 @@ input[type=submit] {
 }
 .section-1 .md-col-bt span{
     position: absolute;
-    right: 10%;
+    left: 15%;
     top: 50%;
     transform: translateY(-50%);
-    width: 7%;
+    width: 8%;
 }
 .section-1 .md-col-bt span img{
     width: 100%;
@@ -360,8 +360,12 @@ input[type=submit] {
     color: #1C8317;
 }
 .section-1 .md-sps .top-content p{
-    text-align: justify;
+    text-align: center;
 }
+.section-1 .md-psp .content p{
+    text-align: center;
+}
+
 .section-1 .md-sps .main-content .md-col{
     border: 2px solid #94CE91;
     border-radius: 20px;
@@ -450,6 +454,7 @@ input[type=submit] {
     width: 49%;
     margin-left: 1%;
 }
+
 .accordion-button::after{
     background-image: none;
     content: "+";
@@ -498,15 +503,23 @@ input[type=submit] {
     /*border-radius: 0px 0px 12px 12px;*/
     border-top: 0px;
     background: #EFF9EF;
-    /*border-radius: 12px;*/
+    border-radius: 0px 0px 12px 12px;
     border: 2px solid #90CB91;  
+}
+.section-3 .accordion-collapse{
+    background: #EFF9EF;
 }
 .section-3 .accordion-body p{
     margin-bottom: 12px;
 }
+.section-3 .accordion-button:not(.collapsed){
+    border-radius: 12px 12px 0px 0px !important;
+    border-bottom: none;
+}
 .section-3 .md-tcol .md-text p{
     font-weight: 700;
     margin-bottom: 5px;
+
 } 
 .section-3 .md-tcol .md-text span{
     padding-left: 15px;
@@ -522,6 +535,7 @@ input[type=submit] {
     background: #90CB91;
     font-size: calc(10px + 0.5vw);
     padding: 15px 0px;
+    text-transform: uppercase;
     border-radius: 20px;
 }
 .section-3 .md-tcol p{
@@ -646,6 +660,7 @@ input[type=submit] {
 }
 .section-6 form p{
     font-family: 'AvertaStdCY-Regular';
+    text-align: center;
 }
 .toggle-menu{
     display: none;

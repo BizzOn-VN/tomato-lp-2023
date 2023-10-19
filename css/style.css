@@ -534,7 +534,7 @@ input[type=submit] {
     color: #000;
     font-weight: 600;
     background: #90CB91;
-    font-size: calc(10px + 0.5vw);
+    font-size: calc(13px + 0.5vw);
     padding: 15px 0px;
     text-transform: uppercase;
     border-radius: 20px;
@@ -845,7 +845,7 @@ textarea:focus::placeholder{
         margin: 0;
     }
     .section-3 .md-tcol h6{
-        font-size: calc(15px + 0.5vw);
+        font-size: calc(18px + 0.5vw);
     }
     .section-3 .accordion-item .accordion-button{
         font-size: calc(15px + 0.5vw);

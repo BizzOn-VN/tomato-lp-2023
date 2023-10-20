@@ -48,8 +48,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
  font-family: 'Montserrat', sans-serif;
 }
-h4{
+h2, h4{
     font-size: calc(30px + 1vw);
+}
+h3{
+    margin-top: 0px;
 }
 p {
   margin-bottom: 20px;
@@ -249,7 +252,7 @@ input[type=submit] {
 .section-1 form input{
     font-family: 'Montserrat', sans-serif;
 }
-.section-1 form h4{
+.section-1 form h2{
     color: #1C8317;
     font-size: calc(30px + 1vw);
     text-align: center;
@@ -333,7 +336,7 @@ input[type=submit] {
     padding: 20px 50px;
     margin-bottom: 25px;
 }
-.section-1 .md-psp .top-content h4{
+.section-1 .md-psp .top-content h2{
     color: #D6F037;
     font-size: calc(30px + 1vw);
     line-height: 1;
@@ -356,7 +359,7 @@ input[type=submit] {
     padding: 0px 50px;
     margin-bottom: 30px;
 }
-.section-1 .md-sps .top-content h4{
+.section-1 .md-sps .top-content h2{
     color: #1C8317;
 }
 .section-1 .md-sps .top-content p{
@@ -390,7 +393,7 @@ input[type=submit] {
     padding: 6% 0 4%;
     margin-bottom: 40px;
 }
-.section-2 h4{
+.section-2 h2{
     text-align: center;
     color: #FFF;
 }
@@ -428,7 +431,7 @@ input[type=submit] {
     text-align: center;
     margin-bottom: 25px;
 }
-.section-3 .md-cnq .top-content h4{
+.section-3 .md-cnq .top-content h2{
     color: #1C8317;
 }
 .section-3 .md-cnq .main-content{
@@ -529,7 +532,7 @@ input[type=submit] {
     margin-bottom: 20px;
 }
 
-.section-3 .md-tcol h6{
+.section-3 .md-tcol h3{
     text-align: center;
     color: #000;
     font-weight: 600;
@@ -552,7 +555,7 @@ input[type=submit] {
     margin-bottom: 10px;
 }
 
-.section-4 h4{
+.section-4 h2{
     color: #1C8317;
     text-align: center;
     font-size: 600;
@@ -586,7 +589,7 @@ input[type=submit] {
     margin-bottom: 5px;
     min-width: 100px;
 }
-.section-4 .main-content .content h6{
+.section-4 .main-content .content h3{
     font-weight: 600;
     font-size: calc(12px + 0.5vw);
 }
@@ -619,7 +622,7 @@ input[type=submit] {
     background-image: linear-gradient(to bottom, #EFF9EF 0%, #ffffff 100%);
     padding: 40px 0px;
 }
-.section-5 h4{
+.section-5 h2{
     color: #1C8317;
     text-align: center;
     font-weight: 600;
@@ -844,7 +847,7 @@ textarea:focus::placeholder{
         width: 100%;
         margin: 0;
     }
-    .section-3 .md-tcol h6{
+    .section-3 .md-tcol h3{
         font-size: calc(18px + 0.5vw);
     }
     .section-3 .accordion-item .accordion-button{

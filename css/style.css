@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
  font-family: 'Montserrat', sans-serif;
 }
-h2, h4{
+h1, h2, h4{
     font-size: calc(30px + 1vw);
 }
 h3{
@@ -252,7 +252,7 @@ input[type=submit] {
 .section-1 form input{
     font-family: 'Montserrat', sans-serif;
 }
-.section-1 form h2{
+.section-1 form h1{
     color: #1C8317;
     font-size: calc(30px + 1vw);
     text-align: center;

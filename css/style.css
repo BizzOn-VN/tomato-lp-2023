@@ -583,6 +583,7 @@ input[type=submit] {
     box-shadow: 5px 5px 5px 0px #DDF8DC;
     padding: 20px;
     background: #FFF;
+    position: relative;
 }
 .section-4 .main-content .content img{
     width: 25%;
@@ -605,13 +606,16 @@ input[type=submit] {
     border-radius: 50px;
     padding: 10px 20px;
     transition-duration: 0.5s;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
 }
 /*.section-4 .main-content .content a:hover{
     color: #FFF;
     background: #FF5F2D;
 }*/
 .section-4 .main-content .content a span img{
-    width: 5%;
+    width: 10%;
     margin-left: 10px;
     min-width: auto;
 }

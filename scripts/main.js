@@ -71,7 +71,7 @@ $( window ).on( "load", function() {
                    h4height = $(this).height();
                  };
              });
-             $('.section-4 .main-content .content').height(h4height);
+             $('.section-4 .main-content .content').height(h4height + 30);
   });
 $('.section-4 .main-content .content').height(h4height); 
   var onresize = function() {
@@ -82,7 +82,7 @@ $('.section-4 .main-content .content').height(h4height);
                    h4height = $(this).height();
                  };
              });
-             $('.section-4 .main-content .content').height(h4height);
+             $('.section-4 .main-content .content').height(h4height + 30);
      };
   window.addEventListener("resize", onresize);
 

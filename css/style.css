@@ -586,8 +586,8 @@ input[type=submit] {
     position: relative;
 }
 .section-4 .main-content .content img{
-    width: 25%;
-    margin-bottom: 5px;
+    width: 40%;
+    margin-bottom: 8px;
     min-width: 100px;
 }
 .section-4 .main-content .content h3{

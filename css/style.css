@@ -618,6 +618,7 @@ input[type=submit] {
     width: 10%;
     margin-left: 10px;
     min-width: auto;
+    margin-bottom: 0px;
 }
 .section-4{
     margin-bottom: 10px;
@@ -859,6 +860,12 @@ textarea:focus::placeholder{
     }
     .section-4 .main-content .content{
         height: auto !important; 
+    }
+    .section-4 .main-content .content a{
+        position: static;
+    }
+    .section-4 .main-content .content a span img{
+        width: 5%;
     }
     .section-5 .main-content{
         padding: 0px;

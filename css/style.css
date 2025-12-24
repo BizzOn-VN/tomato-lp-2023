@@ -931,3 +931,371 @@ textarea:focus::placeholder{
         margin-bottom: 20px;
     }
 }
+
+.page-preneur p{
+    margin-bottom: 10px;
+    font-size: calc(10px + 1vw);
+}
+.page-preneur h1{
+    color: #0b1b2a;
+}
+.page-preneur h2{
+    color: #000;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.page-preneur img{
+    width: 100%;
+}
+.page-preneur .section-1 h1{
+    font-size: calc(10px + 7vw);
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.page-preneur .section-1 h1:before{
+    content: "";
+    width: 7%;
+    height: 5px;
+    background: #0f5286;
+    display: block;
+    position: absolute;
+    right: 21%;
+    bottom: 0%;
+}
+.page-preneur .section-1 h1:after{
+    content: "";
+    width: 20%;
+    height: 5px;
+    background: #ffd230;
+    display: block;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+.page-preneur .section-1 h1 span{
+    display: block;
+    color: #ffd230;
+}
+.page-preneur .section-1 img{
+    width: 100%;
+}
+.page-preneur .section-1 .md-content{
+    background: #0f5286;
+    padding: 5% 0px 10%;
+}
+.page-preneur .section-1 .md-content p{
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: calc(10px + 3vw);
+}
+.page-preneur .section-1 .md-content a{
+    text-align: right;
+    color: #ffd230;
+    display: block;
+    font-size: calc(10px + 2vw);
+}
+.page-preneur .section-6{
+    margin-bottom: 50px;
+}
+.page-preneur .section-6 .md-relative{
+    position: relative;
+}
+.page-preneur .section-6 .bg-sc-6{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2%;
+    height: 50%;
+    background: #ffd230;
+}
+.page-preneur .section-9 .md-relative{
+    position: relative;
+}
+.page-preneur .section-9 .bg-re-9{
+    position: absolute;
+    right: 0;
+    top: -50px;
+    width: 2%;
+    height: 50%;
+    background: #ffd230;
+}
+.page-preneur .section-6 h2{
+    color: #0b1b2a;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.page-preneur  h2:before{
+    content: "";
+    width: 7%;
+    height: 5px;
+    background: #0f5286;
+    display: block;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+.page-preneur  h2:after{
+    content: "";
+    width: 20%;
+    height: 5px;
+    background: #ffd230;
+    display: block;
+    position: absolute;
+    left: 8%;
+    bottom: 0%;
+
+}
+.page-preneur .section-6 img{
+    width: 100%;
+    margin-top: 20px;
+}
+.page-preneur .section-7{
+    margin-bottom: 50px;
+}
+.page-preneur .section-7 h2{
+    text-transform: uppercase;
+     position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.page-preneur .section-7 span{
+    display: block;
+    font-size: calc(10px + 1vw);
+    margin-left: 5%;
+}
+.page-preneur .section-7 .md-content span img{
+    width: 2%;
+    margin-right: 5px;
+}
+.page-preneur .section-7 .md-content{
+    margin-bottom: 30px;
+}
+.page-preneur .section-8 h2{
+    font-size: calc(15px + 1vw);
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.page-preneur .section-8 h6{
+    font-size: calc(10px + 1vw);
+    font-weight: 700;
+    color: #000;
+}
+.page-preneur .section-8 img{
+    margin-top: 20px;
+}
+.page-preneur .section-8{
+    margin-bottom: 50px;
+}
+.page-preneur .section-9{
+    position: relative;
+    padding-bottom: 150px;
+}
+.page-preneur .section-9 .bg-sc-9{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #ffd230;
+    height: 100px;
+}
+.page-preneur .section-9 span img{
+    width: 2.5%;
+    margin-right: 5px;
+}
+.page-preneur .section-9 span{
+    display: block;
+    font-size: calc(10px + 1vw);
+    margin-bottom: 10px;
+}
+.page-preneur .section-9 .md-bot span img{
+    width: 3%;
+    margin-right: 10px;
+}
+.page-preneur .section-9 .md-bot span {
+    margin-left: 10px;
+}
+.page-preneur .section-9 .img-sc-9{
+    margin: 50px 0px;
+}
+.page-preneur .md-header{
+    padding: 50px 0px 100px;
+}
+.page-preneur .logo{
+    width: 30%;
+    float: left;
+}
+.page-preneur .md-button{
+    float: right;
+        color: #FFF;
+        border-radius: 40px;
+        padding: 10px 20px;
+    font-family: 'AvertaStdCY-Regular';
+    font-weight: 700;
+    font-size: calc(10px + 2vw);
+    background: #089901;
+    border: 1px solid #089901;
+}
+.page-preneur .md-button:hover{
+    background: #FFF;
+    color: #089901;
+}
+.footer-preneur{
+    background: #0f5286;
+    padding: 50px 0px;
+}
+.footer-preneur h2{
+    color: #FFF;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    font-size: calc(10px + 6vw);
+}
+.footer-preneur h2:before{
+    content: "";
+    width: 7%;
+    height: 5px;
+    background: #FFF;
+    display: block;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+.footer-preneur h2:after{
+    content: "";
+    width: 20%;
+    height: 5px;
+    background: #ffd230;
+    display: block;
+    position: absolute;
+    left: 8%;
+    bottom: 0%;
+}
+.footer-preneur .md-col a{
+    width: 50%;
+    display: table;
+    margin: 0 auto 30px auto;
+    text-align: center;
+   
+}
+.footer-preneur .md-col a img{
+    width: 8%;
+    margin-top: -10px;
+    margin-right: 5px;
+}
+.footer-preneur .md-col a span{
+     color: #FFF;
+     font-size: calc(10px + 2vw);
+     font-weight: 700;
+}
+.footer-preneur .md-col-1 a{
+    float: left;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+}
+.footer-preneur .md-col-1 a img{
+    width: 8%;
+    margin-top: -10px;
+    margin-right: 5px;
+}
+.footer-preneur .md-col-1 a span{
+     color: #FFF;
+     font-size: calc(10px + 1vw);
+}
+.footer-preneur .md-img{
+    margin-top: 50px;
+}
+.footer-preneur .md-img img{
+    width: 100%;
+}
+.footer-preneur .md-img .md-col-1{
+    width: 67.5%;
+    float: left;
+}
+.footer-preneur .md-img .md-col-2{
+    width: 32.5%;
+    float: left;
+}
+@media screen and (min-width: 1599px){
+    .page-preneur .section-1 h1:before{
+        height: 10px;
+    }
+    .page-preneur .section-1 h1:after{
+        height: 10px;
+    }
+    .page-preneur h2:before{
+        height: 10px;
+    }
+    .page-preneur h2:after{
+        height: 10px;
+    }
+}
+@media screen and (max-width: 767px){
+    .page-preneur .md-header{
+        padding: 30px 0px 50px;
+    }
+    .page-preneur .section-1 h1:before{
+        width: 12%;
+        right: 26%;
+        height: 7px;
+    }
+    .page-preneur .section-1 h1:after{
+        width: 25%;
+        height: 7px;
+    }
+    .page-preneur h2:before{
+        width: 12%;
+        height: 7px;
+    }
+    .page-preneur h2:after{
+        width: 25%;
+        height: 7px;
+        left: 13%;
+    }
+    .page-preneur p{
+        font-size: calc(10px + 2vw);
+    }
+    .page-preneur .section-7 span{
+        font-size: calc(10px + 2vw);
+    }
+    .page-preneur .section-8 h2{
+        font-size: calc(15px + 2vw);
+    }
+    .page-preneur .section-8 h6{
+        font-size: calc(10px + 2vw);
+    }
+    .page-preneur .section-9 span{
+        font-size: calc(10px + 2vw);
+    }
+    .footer-preneur .md-col a img{
+        width: 10%;
+        margin-top: -2px;
+    }
+    .footer-preneur .md-col-1 a img{
+        width: 10%;
+        margin-top: -2px;
+    }
+    .page-preneur .section-9 .md-bot span img{
+        width: 5%;
+    }
+    .page-preneur .section-9 span img{
+        width: 5%;
+    }
+    .page-preneur .section-7 .md-content span img{
+        width: 5%;
+    }
+    .page-preneur .section-6 .bg-sc-6{
+        display: none;
+    }
+    .page-preneur .section-9 .bg-re-9{
+        display: none;
+    }
+}

@@ -1138,7 +1138,7 @@ textarea:focus::placeholder{
         padding: 10px 20px;
     font-family: 'AvertaStdCY-Regular';
     font-weight: 700;
-    font-size: calc(10px + 2vw);
+    font-size: calc(10px + 1vw);
     background: #089901;
     border: 1px solid #089901;
 }

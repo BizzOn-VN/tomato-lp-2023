@@ -94,7 +94,7 @@ $( window ).on( "load", function() {
              });
              $('.section-4 .main-content .content').height(h4height + 30);
   });
-$('.section-4 .main-content .content').height(h4height); 
+// $('.section-4 .main-content .content').height(h4height); 
   var onresize = function() {
      $('.section-4 .main-content .content').css("height","auto");
              var h4height = 0;

@@ -1057,6 +1057,30 @@ textarea:focus::placeholder{
 }
 .page-preneur .section-7{
     margin-bottom: 50px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.page-preneur .section-7 .bg-sc-7{
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    width: 2%;
+    height: 50%;
+    background: #08587d;
+}
+.page-preneur .section-7 .md-img{
+    position: relative;
+    margin-right: 5%;
+}
+.page-preneur .section-7 .md-img .bg-md-img{
+    width: 25%;
+    background: #fdda26;
+    height: 97.4%;
+    position: absolute;
+}
+.page-preneur .section-7 .md-img img{
+    width: 75%;
+    margin-left: 25%;
 }
 .page-preneur .section-7 h2{
     text-transform: uppercase;
@@ -1086,6 +1110,20 @@ textarea:focus::placeholder{
     font-size: calc(10px + 1vw);
     font-weight: 700;
     color: #000;
+}
+.page-preneur .section-8 .md-img{
+    position: relative;
+}
+.page-preneur .section-8 .md-img .bg-md-img{
+    width: 40%;
+    background: #08587d;
+    height: 105%;
+    position: absolute;
+    top: 0%;
+}
+.page-preneur .section-8 .md-img img{
+    width: 60%;
+    margin-left: 40%;
 }
 .page-preneur .section-8 img{
     margin-top: 20px;
@@ -1239,6 +1277,9 @@ textarea:focus::placeholder{
     }
 }
 @media screen and (max-width: 767px){
+    .page-preneur .section-7 .bg-sc-7{
+        display: none;
+    }
     .page-preneur .md-header{
         padding: 30px 0px 50px;
     }

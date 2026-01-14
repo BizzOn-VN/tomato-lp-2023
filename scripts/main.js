@@ -33,7 +33,7 @@ $(".md-section-5").click(function() {
         'slow');
 });
 
-$('.owl-carousel').owlCarousel({
+$('.banner .owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
@@ -144,3 +144,22 @@ $('.slide-images').click({
     prevArrow : '<button><i class="fas fa-arrow-square-left"></i></button>',
   });
 
+$('.section-4 .owl-carousel').owlCarousel({
+    loop:true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause:true,
+    margin:0,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})

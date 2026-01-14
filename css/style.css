@@ -306,19 +306,45 @@ input[type=submit] {
     display: none;
     width: 50%;
     height: 50%;
-    background: #089901;
+    background: #FFF;
     position: relative;
 }
-.md-modal-fancybox p{
+.md-modal-fancybox .md-content{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: 0px;
-    font-size: calc(8px + 1.2vw);
     text-align: center;
     width: 75%;
+    color: #089901;
+}
+.md-modal-fancybox .md-content h6{
+    font-size: calc(5px + 2vw);
+    font-weight: 700;
+}
+.md-modal-fancybox img{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    width: 12%;
+}
+.section-4 .row{
+    display: flex !important;
+}
+.md-modal-fancybox .md-close{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: auto;
+    width: 50%;
     color: #FFF;
+    background: #089901;
+}
+.fancybox-is-open .fancybox-stage{
+    overflow: auto;
 }
 .section-1 .md-psp{
     margin-bottom: 70px;
@@ -694,10 +720,25 @@ textarea:focus::placeholder{
     display: none;
 }
 @media screen and (max-width: 767px){
+    .section-4 .main-content .col-md-6{
+        margin-bottom: 0px;
+    }
+    .md-modal-fancybox{
+        width: 100%;
+        height: 40%;
+    }
+    .md-modal-fancybox .md-content h6{
+        font-size: calc(10px + 4vw);
+    }
+    .section-4 .row{
+        display: none !important;
+    }
     body{
         font-size: calc(15px + 0.5vw);
     }
-
+    .section-4 .main-content{
+        padding: 0px 30px;
+    }
     .container-header{
         display: block;
         border-radius: 0px;
@@ -864,8 +905,11 @@ textarea:focus::placeholder{
     .section-4 .main-content .content a{
         position: static;
     }
+    .section-4 .main-content .content a span{
+        display: inline-block;
+    }
     .section-4 .main-content .content a span img{
-        width: 5%;
+        width: 40%;
     }
     .section-5 .main-content{
         padding: 0px;
@@ -1338,5 +1382,11 @@ textarea:focus::placeholder{
     }
     .page-preneur .section-9 .bg-re-9{
         display: none;
+    }
+}
+@media screen and (min-width: 1920px){
+    .md-modal-fancybox{
+        width: 40%;
+        height: 40%;
     }
 }

@@ -150,7 +150,7 @@ $('.section-4 .owl-carousel').owlCarousel({
     autoplayTimeout: 3000,
     autoplayHoverPause:true,
     margin:0,
-    nav:false,
+    nav:true,
     responsive:{
         0:{
             items:1

@@ -333,6 +333,24 @@ input[type=submit] {
 .section-4 .row{
     display: flex !important;
 }
+.section-4 .owl-carousel .owl-nav button.owl-next span{
+    display: none;
+}
+.section-4 .owl-carousel .owl-nav button.owl-prev span{
+    display: none;
+}
+.section-4 .owl-carousel .owl-nav button.owl-next{
+    background: url(../images/ico-next.png) no-repeat;
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+}
+.section-4 .owl-carousel .owl-nav button.owl-prev{
+    background: url(../images/ico-back.png) no-repeat;
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+}
 .md-modal-fancybox .md-close{
     position: absolute;
     bottom: 5%;

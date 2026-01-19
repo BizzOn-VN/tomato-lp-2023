@@ -308,6 +308,7 @@ input[type=submit] {
     height: 50%;
     background: #FFF;
     position: relative;
+    border-radius: 20px;
 }
 .md-modal-fancybox .md-content{
     position: absolute;
